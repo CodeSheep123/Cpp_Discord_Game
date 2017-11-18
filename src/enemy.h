@@ -1,6 +1,7 @@
-#pragma once
+#ifnef ENEMY_H
+#define ENEMY_H
 
-class enemy // needs implementation
+class Enemy // needs implementation
 {
   public:
     unsigned int getHealth();
@@ -8,3 +9,5 @@ class enemy // needs implementation
   private:
     unsigned int health;
 };
+
+#endif
